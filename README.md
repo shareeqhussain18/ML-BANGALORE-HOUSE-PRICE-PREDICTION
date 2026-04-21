@@ -56,6 +56,8 @@ Used cross-validation to ensure stability and avoid overfitting.
 
 **Final Model Selected:** Linear Regression (best performance based on GridSearchCV with cross-validation)
 
+Model achieved R² ≈ 0.79 with MAE ≈ 18 (~19% of mean price) and RMSE ≈ 45 (~46% of mean), demonstrating reasonable predictive performance on unseen data.  
+
 ### Model Selection Reasoning  ###
 
 GridSearchCV was used to tune hyperparameters and evaluate models using cross-validation. Linear Regression achieved the highest R² score and demonstrated better generalization compared to other models.
